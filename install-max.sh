@@ -10,6 +10,12 @@ source ~/dotfiles/lib/setup-brew.sh
 source ~/dotfiles/lib/setup-mas.sh
 
 
+## Gems
+
+# For installing hatena-bookmark chrome extension, etc.
+gem install bundler
+
+
 
 ## Formulae
 

@@ -405,6 +405,8 @@ mas install 426654691
 
 # Airfoil
 brew cask install airfoil
+# Tune•Instructor
+brew cask install tuneinstructor
 # Shazam
 mas install 897118787
 # Audio Genesis

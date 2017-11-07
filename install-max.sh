@@ -184,7 +184,7 @@ brew cask install macid
 # Compression
 
 # Keka
-brew cask install keka
+mas install 470158793
 # The Unarchiver
 mas install 425424353
 # BetterZip
@@ -210,7 +210,6 @@ open "http://pdfextractor-app.com/en/"
 # Atom
 brew cask install atom
 # CotEditor
-# Since the Non-MAS version doesn't have auto-update feature, use MAS.
 mas install 1024640650 &&
 ln -s /Applications/CotEditor.app/Contents/SharedSupport/bin/cot /usr/local/bin/cot
 # Transcriptions
@@ -226,7 +225,7 @@ mas install 944654199
 # Kobito
 mas install 896624060
 # Evernote
-brew cask search evernote
+mas install 406056744
 
 
 # Developer

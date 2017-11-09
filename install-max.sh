@@ -121,7 +121,7 @@ mas install 1107272470
 
 # BetterTouchTool
 brew cask install bettertouchtool
-# Karabiner-elements
+# Karabiner-Elements
 brew cask install karabiner-elements
 # Keymo
 brew cask install keymo

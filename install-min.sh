@@ -34,6 +34,9 @@ brew cask install clipy
 # BetterTouchTool
 brew cask install bettertouchtool
 
+# Karabiner-Elements
+brew cask install karabiner-elements
+
 ## Calq - configurable calculator
 brew cask install calq
 

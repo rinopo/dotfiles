@@ -27,6 +27,8 @@ brew install ssh-copy-id
 brew install goaccess
 brew install wget
 brew install youtube-dl
+brew install ffmpeg
+brew install imagemagick
 brew install cliclick
 brew install mackup
 # diff-pdf requires XQuartz to be installed beforehand.

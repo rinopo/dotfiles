@@ -35,6 +35,7 @@ brew install mackup
 brew cask install xquartz && brew install diff-pdf
 # Required by linter-shellcheck Atom package.
 brew install shellcheck
+brew install vitorgalvao/tiny-scripts/cask-repair
 
 
 

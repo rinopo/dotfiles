@@ -71,7 +71,7 @@ brew cask install oversight
 brew cask install istat-menus
 # Intel Power Gadget - Optionally required by iStat Menus
 brew cask install intel-power-gadget
-# EtreCheck - open sourc health checker for Mac
+# EtreCheck - open source health checker for Mac
 brew cask install etrecheck
 
 

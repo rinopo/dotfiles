@@ -136,10 +136,13 @@ brew cask install qblocker
 # Clipboard
 
 # ClipMenu
-# open ~/Google\ ドライブ/Meta/Backups/Apps/ClipMenu_0.4.3.dmg &&
-#   cp -r /Volumes/ClipMenu/ClipMenu.app /Applications/
+export CURL_HOME="${HOME}/dotfiles/cask"
+brew cask install ~/dotfiles/cask/clipmenu.rb
+unset CURL_HOME
 # PasteFiler
-# unzip -q -d /Applications/ ~/Google\ ドライブ/Meta/Backups/Apps/PasteFiler.zip
+export CURL_HOME="${HOME}/dotfiles/cask"
+brew cask install ~/dotfiles/cask/pastefiler.rb
+unset CURL_HOME
 # Characters
 mas install 536511979
 

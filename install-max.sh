@@ -12,6 +12,8 @@ source ~/dotfiles/lib/setup-mas.sh
 
 ## Gems
 
+gem install rubocop
+gem install rubocop-cask
 # For installing hatena-bookmark chrome extension, etc.
 gem install bundler
 

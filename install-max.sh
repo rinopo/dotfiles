@@ -160,7 +160,7 @@ mas install 1064959555
 # Context Menu
 mas install 1236813619
 # iCloud Control
-open "https://github.com/Obbut/iCloud-Control/releases"
+brew cask install icloud-control
 
 
 # Storage

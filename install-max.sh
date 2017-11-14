@@ -12,6 +12,8 @@ source ~/dotfiles/lib/setup-mas.sh
 
 ## Gems
 
+gem install rubocop
+gem install rubocop-cask
 # For installing hatena-bookmark chrome extension, etc.
 gem install bundler
 
@@ -69,7 +71,7 @@ brew cask install oversight
 brew cask install istat-menus
 # Intel Power Gadget - Optionally required by iStat Menus
 brew cask install intel-power-gadget
-# EtreCheck - open sourc health checker for Mac
+# EtreCheck - open source health checker for Mac
 brew cask install etrecheck
 
 
@@ -134,10 +136,13 @@ brew cask install qblocker
 # Clipboard
 
 # ClipMenu
-# open ~/Google\ ドライブ/Meta/Backups/Apps/ClipMenu_0.4.3.dmg &&
-#   cp -r /Volumes/ClipMenu/ClipMenu.app /Applications/
+export CURL_HOME="${HOME}/dotfiles/cask"
+brew cask install ~/dotfiles/cask/clipmenu.rb
+unset CURL_HOME
 # PasteFiler
-# unzip -q -d /Applications/ ~/Google\ ドライブ/Meta/Backups/Apps/PasteFiler.zip
+export CURL_HOME="${HOME}/dotfiles/cask"
+brew cask install ~/dotfiles/cask/pastefiler.rb
+unset CURL_HOME
 # Characters
 mas install 536511979
 

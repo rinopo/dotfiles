@@ -210,7 +210,7 @@ mas install 522090209
 # ExSqueeze it
 mas install 680194796
 # PDFExtractor
-open "http://pdfextractor-app.com/en/"
+brew cask install pdfextractor
 
 
 # Text Editor

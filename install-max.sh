@@ -285,6 +285,7 @@ brew cask install gitup
 brew cask install github-desktop
 # Fork
 brew cask install fork
+ln -s /Applications/Fork.app/Contents/Resources/fork_cli /usr/local/bin/fork
 
 
 # VM

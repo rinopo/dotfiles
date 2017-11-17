@@ -494,6 +494,13 @@ mas install 1106867065
 brew cask install kindle
 
 
+# Adobe
+
+# Adobe CC
+brew cask install adobe-creative-cloud &&
+open /usr/local/Caskroom/adobe-creative-cloud/latest/Creative\ Cloud\ Installer.app
+
+
 # Quick Look
 
 # qlstephen

@@ -49,6 +49,9 @@ brew cleanup
 
 ## Casks & MAS apps
 
+brew tap caskroom/versions
+
+
 # System Setting
 
 # ControlPlane - automation by hardware event triggers
@@ -224,6 +227,8 @@ ln -s /Applications/CotEditor.app/Contents/SharedSupport/bin/cot /usr/local/bin/
 mas install 911974149
 # MacDown
 brew cask install macdown
+# mi
+brew cask install mi-beta
 
 
 # Memo
@@ -254,9 +259,9 @@ ln -s /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app /App
 brew install sqlitebrowser
 # CodeRunner
 brew cask install coderunner
-# FoobarPlus
+# Foobar / FoobarPlus
 mas install 956507502
-open "http://www.foobaz.io/plus/"
+brew cask install foobarplus
 
 
 # Web dev
@@ -318,7 +323,7 @@ brew cask install google-chrome-canary
 # Firefox (ja)
 brew cask install firefox
 # Firefox Developer Edition
-brew cask install caskroom/homebrew-versions/firefoxdeveloperedition
+brew cask install firefoxdeveloperedition
 # Newsflow
 mas install 890805912
 
@@ -420,7 +425,7 @@ mas install 897118787
 # Audio Genesis
 mas install 1067247000
 # Ondesoft iTunes Converter
-open "http://www.ondesoft.com/itunes_converter/"
+brew cask install odesoft-itunes-converter
 # Recordam
 mas install 1137954881
 # Audacity

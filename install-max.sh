@@ -474,6 +474,8 @@ mas install 950297057
 brew cask install pomotodo
 # Focus Matrix
 mas install 1087284172
+# Cal>Next
+mas install 1294171675
 
 
 # Security

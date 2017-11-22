@@ -388,8 +388,6 @@ mas install 512617038
 
 # Color
 
-# ColorSnapper
-mas install 969418666
 # Sip
 brew cask install sip
 # Picka

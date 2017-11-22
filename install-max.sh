@@ -390,8 +390,8 @@ mas install 512617038
 
 # Sip
 brew cask install sip
-# Picka
-brew cask install picka
+# Pikka
+mas install 1195076754
 # Colorguide
 mas install 591709372
 # Shade

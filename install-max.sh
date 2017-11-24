@@ -132,8 +132,6 @@ brew cask install karabiner-elements
 brew cask install keymo
 # Mouseposé
 brew cask install mousepose
-# QBlocker
-brew cask install qblocker
 
 
 # Clipboard

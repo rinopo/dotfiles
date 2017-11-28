@@ -217,7 +217,8 @@ brew cask install pdfextractor
 # Text Editor
 
 # Atom
-brew cask install atom
+brew cask install atom &&
+apm install sync-settings
 # CotEditor
 mas install 1024640650 &&
 ln -s /Applications/CotEditor.app/Contents/SharedSupport/bin/cot /usr/local/bin/cot
